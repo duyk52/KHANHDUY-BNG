@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #0A4E87;
+  margin: 0
+}
+header {
+  width: 100%;
+  height: 50px;
+	background-color: #C8F8EC;
+}
+.logo {
+  width: 15%;
+  padding-top: px;
+  margin-top: -2px
+}
+.logo img {
+  width: 40%
+}
+.menu {
+  padding-top: 10px;
+  margin-top: 5px
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #66D8FB;
+  padding: 10px
+}
+.menu ul li a:hover {
+  color: white;
+  background-color: #716B6C
+}
+.icon a {
+  padding: 10px;
+  margin-top: 4px
+}
+.icon a i{
+  width: 80%;
+  height: auto; color: #241D1D
+}
+.icon a i:hover{
+	color: #4368EB;
+}
+.icon {
+  display: flex;
+}
+.banner {
+  width: 100%;
+  min-height: 400px;
+  position: relative
+}
+.caption {
+  width: 30%;
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  z-index: 1
+}
+.caption b {
+  font-size: 60px;
+  color: #FAC6FE;
+}
+.caption p {
+  font-size: 40px;
+  color: #64F7F4;
+  margin-top: -10px
+}
+.caption a button {
+  font-size: 35px;
+  color: #47E8EA
+}
+.gachchan {
+  border-bottom: 2px #4FE0ED solid
+}
+.textdo {
+  color: darkred
+}
+.vien {
+  border: 2px #58E2EF solid;
+  border-radius: 20px;
+  padding: 10px;
+  position: relative;
+  overflow: hidden
+}
+.icon2 {
+  width: 70%;
+  height: 45px;
+  position: absolute;
+  left: 15%;
+  top: -15%;
+  display: flex;
+  justify-content: space-between;
+  transition: all 1s;
+}
+.icon2 a {
+  height: 45px;
+  width: 45px;
+  background-color: #51E2F3;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none
+}
+.vien:hover .icon2 {
+  top: 40%;
+}
+.icon2 a i:hover {
+  color: #103FE9
+}
+#feature {
+  width: 100%;
+  min-height: 500px;
+  background-image: url("../images/b4-01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom
+}
+.pt-30 {
+  padding-top: 30px
+}
+.vientrang {
+  width: 100%;
+  border: 1px solid #92F6F7;
+  text-align: center;
+  padding: 20px;
+  color: darkred
+}
+.vientrang a {
+  text-decoration: none;
+  color: darkred;
+  cursor: pointer
+}
+.vientrang a:hover {
+  color: white
+}
+#contact {
+  width: 100%;
+  min-height: 600px;
+  background-image: url("../images/b4-02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center
+}
+.form-control {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%
+}
+.shadow {
+  border: 1px #514C4C solid;
+  padding: 30px;
+  box-shadow: 5px 5px 5px gray
+}
+.texthong {
+  color: #1230C1
+}
+.textdotuoi {
+  color: #EC0307
+}
+.img80 {
+  width: 80%;
+  height: auto
+}
+.icon a img:hover{
+	background-color: #5E5858
+}
